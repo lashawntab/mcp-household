@@ -1,0 +1,12 @@
+[project]
+name = "mcp-household"
+version = "0.1.0"
+description = "Unified MCP server powering custom tools and services for everyday household workflows."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.18.0",
+    "pypdf>=4.0.0",
+    "fastmcp>=2.11.0"
+]
