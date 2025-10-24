@@ -46,6 +46,6 @@ OR
 
 ### 7. Test the MCP Server using MCP Inspector
 
-   ```sh
-   npx @modelcontextprotocol/inspector uv --directory . run mcp_server.py
-   ```
+```sh
+npx @modelcontextprotocol/inspector uv --directory . run mcp_server.py
+```
