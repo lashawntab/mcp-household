@@ -8,5 +8,9 @@ dependencies = [
     "httpx>=0.28.1",
     "mcp[cli]>=1.18.0",
     "pypdf>=4.0.0",
-    "fastmcp>=2.11.0"
+    "fastmcp>=2.11.0",
+    "torch>=2.9.0",
+    "transformers>=4.57.1",
+    "psutil>=7.1.1",
+    "accelerate>=1.11.0",
 ]
