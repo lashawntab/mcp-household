@@ -9,7 +9,7 @@ Follow these steps to run and test the MCP server:
   ```sh
   brew install uv
   ```
-
+pn
 ### 2.  Create a virtual environment using `uv`:
 
 ```sh
@@ -49,3 +49,8 @@ OR
 ```sh
 npx @modelcontextprotocol/inspector uv --directory . run mcp_server.py
 ```
+
+### 7.  Available tools
+
+The following tools are available:
+1.  get_electricity_terms_from_facts_label_pdf  # Extracts specific data from the PDF that is useful in other jobs.
